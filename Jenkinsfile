@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   stages {
-    stage('Checkout') {
+    stage('Git Checkout') {
       steps {
         sh 'echo "Checkout"'
       }
